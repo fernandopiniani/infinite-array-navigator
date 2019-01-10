@@ -34,6 +34,9 @@ const relativetNeighbors = (index, quantitiy = 0) => {
  * @param {integer} position 
  * @param {integer} limit 
  */
-const infinityArrayNavigator = (array, position = 0, limit = 0) =>
+const InfiniteArrayNavigator = (array, position = 0, limit = 0) =>
     relativetNeighbors(position, limit).map(i => array[normalizeIndex(i, array)]);
 
+InfiniteArrayNavigator.normalizeIndex = normalizeIndex
+
+module.exports = InfiniteArrayNavigator
