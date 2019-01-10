@@ -1,7 +1,7 @@
 {
   "name": "infinity-array-navigator",
-  "version": "1.0.0",
-  "description": "Navigate through arrays without endlessly",
+  "version": "1.0.1",
+  "description": "Navigate through arrays endlessly",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
