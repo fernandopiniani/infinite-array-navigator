@@ -1,6 +1,6 @@
 {
   "name": "infinity-array-navigator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Navigate through arrays endlessly",
   "main": "index.js",
   "scripts": {
