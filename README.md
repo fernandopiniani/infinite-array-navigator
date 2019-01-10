@@ -50,4 +50,4 @@ ReactDOM.render(<Demo />, document.getElementById("root"));
 ```
 
 # To do
-- Test coverage
+- Tests coverage
