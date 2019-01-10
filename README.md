@@ -1,7 +1,7 @@
 # Infinity Array Navigator
 Infinity Array Navigator is a functional circular array implementation which let you navigate through arrays endlessly, focusing on one or more elements of a ordinary array.
 
-# Example
+# Example (using React)
 You can check it working [here](https://codesandbox.io/s/l9wnpm79wm).
 
 ```javascript

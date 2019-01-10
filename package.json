@@ -12,7 +12,8 @@
     "navigator",
     "infinity",
     "carousel",
-    "limited"
+    "limited",
+    "react"
   ],
   "repository": {
     "type": "git",
