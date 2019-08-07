@@ -1,8 +1,8 @@
-# Infinity Array Navigator
+# Infinite Array Navigator
 
 ![](./example.gif)
 
-Infinity Array Navigator is a functional circular array implementation which let you navigate through arrays endlessly, focusing on one or more elements of a ordinary array.
+Infinite Array Navigator is a functional circular array implementation which let you navigate through arrays endlessly, focusing on one or more elements of a ordinary array.
 
 # Installation
 ```
