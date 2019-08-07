@@ -6,7 +6,7 @@ Infinite Array Navigator is a functional circular array implementation which let
 
 # Installation
 ```
-npm i infinity-array-navigator
+npm i infinite-array-navigator
 ```
 
 # Example (using React)
