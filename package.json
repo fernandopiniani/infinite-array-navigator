@@ -1,6 +1,6 @@
 {
-  "name": "infinity-array-navigator",
-  "version": "1.0.5",
+  "name": "infinite-array-navigator",
+  "version": "1.0.0",
   "description": "Navigate through arrays endlessly",
   "main": "index.js",
   "scripts": {
@@ -10,19 +10,19 @@
     "array",
     "circular",
     "navigator",
-    "infinity",
+    "infinite",
     "carousel",
     "limited",
     "react"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fernandopiniani/infinity-array-navigator.git"
+    "url": "git+https://github.com/fernandopiniani/infinite-array-navigator.git"
   },
   "author": "Fernando Piniani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fernandopiniani/infinity-array-navigator/issues"
+    "url": "https://github.com/fernandopiniani/infinite-array-navigator/issues"
   },
-  "homepage": "https://github.com/fernandopiniani/infinity-array-navigator#readme"
+  "homepage": "https://github.com/fernandopiniani/infinite-array-navigator#readme"
 }

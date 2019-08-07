@@ -15,7 +15,7 @@ You can check it working [here](https://codesandbox.io/s/kw24x9zzzv).
 ```javascript
 import ReactDOM from "react-dom";
 import React, { Component } from "react";
-import InfinityArrayNavigator, { normalizeIndex} from "infinity-array-navigator";
+import InfiniteArrayNavigator, { normalizeIndex} from "infinite-array-navigator";
 
 const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -42,7 +42,7 @@ class Demo extends Component {
         <h1>Infinite Array Navigator</h1>
         <p><b>Original Array: </b>{array}</p>
         <p><button onClick={this.selectNext}>previous</button></p>
-        <p><b>Result Array: </b>{InfinityArrayNavigator(array, this.state.selected, 2)}</p>
+        <p><b>Result Array: </b>{InfiniteArrayNavigator(array, this.state.selected, 2)}</p>
         <p><button onClick={this.selectPrevious}>next</button></p>
       </div>
     );
