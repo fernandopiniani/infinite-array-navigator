@@ -18,10 +18,12 @@ const normalizeIndex = (index, array) => {
  * Calculates a quantity of elements before and after a given index.
  * @param {integer} index the center element which view will be positioned.
  * @param {integer} quantitiy how many elements will be calculated after and before the relative index.
+ * @param {boolean} justRight if you wanna just elements before the relative index based on quantitiy.
  */
-const relativetNeighbors = (index, quantitiy = 0) => {
+const relativetNeighbors = (index, quantitiy = 0, justRight = false) => {
   let indexArray = [];
-  for (let i = index - quantitiy; i <= index + quantitiy; i++) {
+  let i = justRight ? index : index - quantitiy
+  for (i; i <= index + quantitiy; i++) {
     indexArray.push(i);
   }
   return indexArray;
@@ -33,9 +35,10 @@ const relativetNeighbors = (index, quantitiy = 0) => {
  * @param {array} array 
  * @param {integer} position 
  * @param {integer} limit 
+ * @param {boolean} justRight 
  */
-const InfiniteArrayNavigator = (array, position = 0, limit = 0) =>
-    relativetNeighbors(position, limit).map(i => array[normalizeIndex(i, array)]);
+const InfiniteArrayNavigator = (array, position = 0, limit = 0, justRight = false) =>
+    relativetNeighbors(position, limit, justRight).map(i => array[normalizeIndex(i, array)]);
 
 InfiniteArrayNavigator.normalizeIndex = normalizeIndex
 
